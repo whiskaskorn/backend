@@ -1,0 +1,44 @@
+## Build and output directories
+bin/
+obj/
+out/
+[Bb]in/
+[Oo]bj/
+
+## User-specific files & User Secrets / Settings
+*.user
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+appsettings.Local.json
+
+## Visual Studio & VS Code directories
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Entity Framework / Local Databases
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+## Logs & Temp files
+*.log
+*.tmp
+*.suo
+*.user
+*.userstyles
+
+## Operating System files
+.DS_Store
+Thumbs.db
